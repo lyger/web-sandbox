@@ -7,9 +7,10 @@
     <title>Sandbox</title>
 </head>
 <body>
-    <button onclick="click()">Click me!</button>
+    <button onclick="handleClick()">Click me!</button>
     <script type="text/javascript">
-        function click() {
+        function handleClick() {
+            console.log("Clicked!");
             window.open("https://google.com", "_blank");
         }
     </script>
